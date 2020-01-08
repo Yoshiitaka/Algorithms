@@ -3,13 +3,14 @@
  
 int main(void)
 {
-  int n, insertion, merge;
+  int n, hoge, insertion, merge;
   for(n=1; n<100; n++){
     insertion = 8 * (n * n);
     merge = 64 * n * log2(n);
   if(insertion <= merge){
-    printf("%d \n", n);
+    hoge = n;
   }
 }
+  printf("%d \n", hoge);
   return 0;
 }
